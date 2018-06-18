@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>
+REGISTRATION FORM</title>
+</head>
+<body style="background-color:black;width:500px;height:500px;">
+<h1 style="font-family:courier;color:white;text-align:center;background-color:red">Registration form</h1>
+<center><div style="background:rgb(180, 180, 180);height:;width:500px;">
+<form>
+<table>
+<tr>
+<td style="color:red;">USERNAME: </td>
+<td><input type="text" name="user" placeholder="First name" style="border:2px solid blue"></td>
+</tr>
+<tr>
+<td style="color:red;">PASSWORD: </td>
+<td><input type="password" name="user"style="border:2px solid blue"></td>
+</tr>
+<tr>
+<td style="color:red;">CONFIRM PASSWORD: </td>
+<td><input type="password" name="user"style="border:2px solid blue"></td>
+</tr>
+<tr>
+<td style="color:red;">EMAIL: </td>
+<td><input type="email" name="user"style="border:2px solid blue"></td>
+</tr>
+<tr>
+<td style="color:red;"> ADDRESS: </td>
+<td> <textarea name="message" rows="10" cols="30" style="border:2px solid blue"></textarea></td>
+</tr>
+<tr>
+<td style="color:red;"> BIRTHDAY:</td>
+<td><input type="date" name="birth" style="border:2px solid blue;"></td>
+</tr>
+
+<tr>
+<td style="color:red;"> NATIONALITY:</td>
+<td><input list="nationality" placeholder="-select-" style="border:2px solid blue;">
+<datalist id="nationality">
+<option value="india">
+<option value="srilanka">
+<option value="pakistan">
+<option value="tokyo">
+<option value="france">
+>/datalist>
+</td>
+</tr>
+<tr>
+<td style="color:red;" rowspan="3">GENDER :</td>
+<td>male</td>
+<td><input type="radio" name="gender" checked> </td>
+</tr>
+<tr>
+<td>female</td>
+<td><input type="radio" name="gender" value="female"> </td>
+</tr>
+<tr>
+<td>others</td>
+<td><input type="radio" name="gender" value="others"> </td>
+</td>
+</tr>
+<tr>
+<td style=""><input type="reset"></td>
+<td><input type="button" name="register" value="REGISTER"  style="background-color:red">
+</td>
+<td><input type="button" onclick="alert('profile saved!')" value="final submit"></td>
+</tr>
+</table></form>
+</div></center>
+</body>
+</html>
